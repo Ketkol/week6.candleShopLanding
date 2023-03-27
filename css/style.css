@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bitter', serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url(../img/image1.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #e5d6d079;
+    border: 2px solid #e5d6d0;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #472825;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;  
+}
+
+.intro-image__text a:hover {
+    
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #081a08 ;
+    color: #e9e0e3;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1 10rem;
+    clip-path: polygon(50% 15%, 100% 0, 100% 100%, 0 100%, 0 0);
+    margin-top: -4rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+.packaging-image{
+    background-attachment: fixed;
+    background-image: url(../img/image2.webp);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.packaging-image__text a{
+    background-color: #aab5ba4f;
+    border: 2px solid #000000;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #cad1d4;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;  
+}
+
+.packaging-image__text a:hover{
+    transform: scale(1.2);
+}
+.packaging-text{
+    background-color:#cad1d4 ;
+    color: #171b20;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1 10rem;
+}
+.packaging_text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    background-color:  #a69570;
+    color: #472825;
+    height: 150px;
+    font-size: 1.3rem;
+    padding: 1.5rem;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin: 0.5rem;
+}
+.footer ul li a{
+    color: #472825;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    color: black;
+    display: inline-block;
+    transform: scale(1.2);
+}
+
+.tutorials-image{
+    background-attachment: fixed;
+    background-image: url(../img/image3.webp);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tutorials-image__text a{
+    background-color: #dbdae160;
+    border: 2px solid #a69570;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+.tutorials-image__text a:hover{
+    transform: scale(1.2);
+}
